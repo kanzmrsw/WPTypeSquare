@@ -1,9 +1,9 @@
 <?php
 /**
  Plugin Name: WPTypeSquare
- Plugin URI: https://github.com/kanzmrsw
- Description: たいぷぅすくうぇあ
- Author: super typesquare user
+ Plugin URI: https://github.com/kanzmrsw/WPTypeSquare
+ Description: Make it easier to use TypeSquare on WordPress
+ Author: kanzmrsw
  Version: 0.11
  Author URI: https://github.com/kanzmrsw
  */
@@ -98,7 +98,7 @@ function show_tsmenu() {
                            <span class="subdescription">Please select font from your registered fonts (<a href="http://typesquare.com/service/fontlist" target="_blank">Font list</a>).</span></td>
                    </tr>
                    <tr valign="top">
-                       <th scope="row"><label for="element">Font</label></th>
+                       <th scope="row"><label for="element">Element</label></th>
                        <td><input name="showts_options[element]" type="text" id="element" value="<?php echo $show_element ?>" class="regular-text" /><br />
                            <span class="subdescription">Please select elements which use TypeSquare fonts (e.g. "h1, .page_item"). </span></td>
                    </tr>

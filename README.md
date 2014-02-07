@@ -16,13 +16,13 @@ HOW TO USE
 1. Download
 Download zip file from [here](https://github.com/kanzmrsw/WPTypeSquare/blob/master/wptypesquare-latest.zip?raw=true).
 
-2. Install
-Dashboard > Plugins > Add New > Upload > Choose wptypesquare-latest.zip > Install Now
-![choose_zip](img/choose_zip.png)
+2. Install and Activate
+Dashboard > Plugins > Add New > Upload
+> Choose wptypesquare-latest.zip > Install Now and Activate 
 
-3. Activate
 4. Setting
-
+Go to Dashboard > WPTypeSquare Plugin,
+set your UID, Font, Element, Fade-in check and duration.
 
 EXAMPLES AND DEMO
 ----------------
