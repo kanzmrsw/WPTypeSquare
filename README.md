@@ -1,6 +1,6 @@
 WPTypeSquare
 ============
-This plugin make easier to use cloud fonts from [TypeSquare](http://typesquare.com) on WordPress.
+This plugin makes it easier to use cloud fonts from [TypeSquare](http://typesquare.com) on WordPress.
 
 REQUIREMENTS
 ----------------
