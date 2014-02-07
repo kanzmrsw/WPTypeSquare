@@ -108,7 +108,7 @@ function show_tsmenu() {
                    </tr>
                    <tr valign="top">
                        <th scope="row"><label for="fadein">Fade-in duration</label></th>
-                       <td><input name="showts_options[fadein]" type="number" id="fadein" value="<?php echo $show_fadein ?>" min="0" max="100" step="10" <?php if (!$show_usefadein) echo('disabled'); ?> /></td>
+                       <td><input name="showts_options[fadein]" type="number" id="fadein" value="<?php echo $show_fadein ?>" min="0" max="100" step="10" <?php if (!$show_usefadein) echo('disabled'); ?> /> ms</td>
                    </tr>
                </table>
                <p class="submit"><input type="submit" name="Submit" class="button-primary" value="Save changes" /></p>
