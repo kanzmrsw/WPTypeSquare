@@ -10,6 +10,8 @@ Containing only non-zip php file.
 
 HOW TO USE
 ----------------
+1. Install Plugin
+2. Setting
 
 
 EXAMPLES AND DEMO
