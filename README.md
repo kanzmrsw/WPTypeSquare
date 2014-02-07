@@ -2,6 +2,11 @@ WPTypeSquare
 ============
 This plugin make easier to use cloud fonts from [TypeSquare](http://typesquare.com) on WordPress.
 
+REQUIREMENTS
+----------------
+I checked work fine on WP 3.8.1
+
+
 VERSION HISTORY
 ----------------
 ### 0.11
@@ -10,6 +15,7 @@ add zip file.
 ### 0.10
 First release.
 Containing only non-zip php file.
+
 
 HOW TO USE
 ----------------
@@ -20,6 +26,7 @@ HOW TO USE
 
 3. Go to Dashboard > WPTypeSquare Plugin,
 set your UID, Font, Element, Fade-in check and duration.
+
 
 EXAMPLES AND DEMO
 ----------------
