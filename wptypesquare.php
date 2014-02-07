@@ -13,7 +13,8 @@ if (!is_admin()) {
 		$tsjs_name = 'typesquarejs';
 		$tsjs_url = '//typesquare.com/accessor/script/typesquare.js';
 		$tsjs_uid = get_tsoptions('uid');
-		$ts_font = get_tsoptions('font');
+    $ts_font = get_tsoptions('font');
+    $ts_element = get_tsoptions('element');
 		$ts_usefadein = get_tsoptions('usefadein');
 		$ts_fadein = get_tsoptions('fadein');
 
@@ -30,7 +31,7 @@ if (!is_admin()) {
 		//TODO: set font fallback
 		echo <<<EOM
 <style type="text/css">
-	h1 {
+	$ts_element {
 		font-family: $ts_font; 
 	}
 </style>
@@ -81,6 +82,7 @@ function show_tsmenu() {
                $opt = get_option('showts_options');
                $show_uid = isset($opt['uid']) ? $opt['uid'] : null;
                $show_font = isset($opt['font']) ? $opt['font'] : null;
+               $show_element = isset($opt['element']) ? $opt['element'] : null;
                $show_usefadein = $opt['usefadein'];
                $show_fadein = isset($opt['fadein']) ? $opt['fadein'] : null;
                ?> 
@@ -94,6 +96,11 @@ function show_tsmenu() {
                        <th scope="row"><label for="font">Font</label></th>
                        <td><input name="showts_options[font]" type="text" id="font" value="<?php echo $show_font ?>" class="regular-text" /><br />
                            <span class="subdescription">Please select font from your registered fonts (<a href="http://typesquare.com/service/fontlist" target="_blank">Font list</a>).</span></td>
+                   </tr>
+                   <tr valign="top">
+                       <th scope="row"><label for="element">Font</label></th>
+                       <td><input name="showts_options[element]" type="text" id="element" value="<?php echo $show_element ?>" class="regular-text" /><br />
+                           <span class="subdescription"></span></td>
                    </tr>
                    <tr valign="top">
                        <th scope="row"><label for="fadein">Enable fade-in</label></th>
