@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/kanzmrsw
  Description: たいぷぅすくうぇあ
  Author: super typesquare user
- Version: 0.1
+ Version: 0.11
  Author URI: https://github.com/kanzmrsw
  */
 
