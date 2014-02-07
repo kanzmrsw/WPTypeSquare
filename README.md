@@ -18,7 +18,7 @@ Download zip file from [here](wptypesquare-latest.zip).
 
 2. Install
 Dashboard > Plugins > Add New > Upload > Choose wptypesquare-latest.zip > Install Now
-[choose_zip](img/chooose_zip.png)
+[choose_zip](img/choose_zip.png)
 
 3. Activate
 4. Setting
