@@ -17,8 +17,8 @@ HOW TO USE
 Download zip file from [here](https://github.com/kanzmrsw/WPTypeSquare/blob/master/wptypesquare-latest.zip?raw=true).
 
 2. Install and Activate
-Dashboard > Plugins > Add New > Upload
-> Choose wptypesquare-latest.zip > Install Now and Activate 
+Dashboard > Plugins > Add New > Upload >
+ Choose wptypesquare-latest.zip > Install Now and Activate 
 
 4. Setting
 Go to Dashboard > WPTypeSquare Plugin,
