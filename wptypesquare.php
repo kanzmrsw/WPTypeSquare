@@ -100,7 +100,7 @@ function show_tsmenu() {
                    <tr valign="top">
                        <th scope="row"><label for="element">Font</label></th>
                        <td><input name="showts_options[element]" type="text" id="element" value="<?php echo $show_element ?>" class="regular-text" /><br />
-                           <span class="subdescription"></span></td>
+                           <span class="subdescription">Please select elements which use TypeSquare fonts (e.g. "h1, .page_item"). </span></td>
                    </tr>
                    <tr valign="top">
                        <th scope="row"><label for="fadein">Enable fade-in</label></th>
